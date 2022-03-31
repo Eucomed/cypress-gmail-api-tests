@@ -7,7 +7,9 @@
     "test:chrome": "cypress run --spec cypress/integration/*.ts --browser chrome",
     "test:chrome:headless": "cypress run --spec cypress/integration/*.ts --headless --browser chrome",
     "test:edge": "cypress run --spec cypress/integration/*.ts --browser edge",
-    "test:firefox": "cypress run --spec cypress/integration/*.ts --browser firefox"
+    "test:edge:headless": "cypress run --spec cypress/integration/*.ts --headless --browser edge",
+    "test:firefox": "cypress run --spec cypress/integration/*.ts --browser firefox",
+    "test:firefox:headless": "cypress run --spec cypress/integration/*.ts --headless --browser firefox"
   },
   "author": "Eva Hostakova",
   "license": "ISC",
